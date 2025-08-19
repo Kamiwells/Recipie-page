@@ -27,10 +27,10 @@ h2, th{
     color: hsl(14, 45%, 36%);
 }
 main h1:first-child{
-    font-family: Yserif;
+    font-family: 'Yserif', Arial, Helvetica, sans-serif;
 }
 .font-heading{
-    font-family: Yserif;
+    font-family: 'Yserif', Arial, Helvetica, sans-serif;
 }
 
 /* omelette picture */
@@ -397,7 +397,7 @@ body{
             width: 62rem;
             margin: 2rem auto;
             border-bottom: 1px solid rgba(0, 0, 0, 0.27);
-            padding: 2.7rem 3px;
+            padding: 2.7rem 0.3rem;
             line-height: 3rem;
             list-style-position: outside;
             font-size: 1.7rem;
