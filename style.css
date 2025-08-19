@@ -1,0 +1,489 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* fonts */
+@font-face {
+    font-family: Inter-regular;
+    src: url(Fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(Fonts/Outfit-Medium.ttf);
+}
+@font-face {
+    font-family: Yserif;
+    src: url(Fonts/YoungSerif-Regular.ttf);
+}
+body{
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 1.5rem;
+    color: hsl(24, 5%, 18%);}
+/* general Styles */
+h2, th{
+    color: hsl(14, 45%, 36%);
+}
+main h1:first-child{
+    font-family: Yserif;
+}
+.font-heading{
+    font-family: Yserif;
+}
+
+/* omelette picture */
+.omelette{
+    background-image: url(Image/image-omelette.jpeg);
+    width: 100%;
+    height: 17rem;
+    background-size: cover;
+}
+/* Whole card */
+.container{
+    background: hsl(0, 0%, 100%);
+}
+/* first content */
+.Heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 33.5rem;
+    font-size: 1.7rem;
+}
+/* heading */
+.Heading h1{
+    line-height: 3.5rem;
+    letter-spacing: 0.1rem;
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+/* Paragraph */
+.Heading p{
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    padding: 0 1rem;
+}
+/* second content */
+.prep-time{
+    font-size: 1.5rem;
+    width: 26rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 3rem;
+    background: hsl(330, 100%, 98%);
+    list-style-position: outside;
+}
+/* Heading */
+.prep-time h2:first-child{
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 1rem 0;
+}
+/* Lists */
+.prep-time li{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin: 1.5rem 0 0 3rem;
+    padding-left: 1rem;
+}
+.prep-icon > li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Third content */
+.Ingredients{
+    width: 30rem;
+    margin: 2rem auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+    padding: 2.7rem 0;
+    line-height: 3rem;
+    list-style-position:outside;
+    font-size: 1.6rem;
+}
+/* list */
+.Ingre-icon  li{
+    margin: 0.6rem 0 0 2.5rem;
+}
+.Ingredients li{
+    padding-left: 1rem; 
+}
+.Ingredients h2:first-child{
+    margin-bottom: 1.5rem;
+}
+.Ingre-icon li::marker{
+    color: hsl(14, 45%, 36%);
+}
+/* Fourth content */
+.Instructions{
+    width: 30rem;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+    padding: 2rem 0;
+    line-height: 2.5rem;
+    font-size: 1.49rem;
+}
+/* List */
+.list-icon > li::marker{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+.Instructions li{
+    margin: 1rem 2rem;    
+    list-style-position:outside;
+    padding-left: 1rem;
+}
+.Instructions h2:first-child{
+    margin: 0 0 2rem 0;
+}
+.bold-list{
+    font-weight: bold;
+}
+/* Last section */
+.Nutrition{
+    width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+}
+.Nutrition h2:first-child{
+    margin: 1.5rem 0;
+}
+/* table */
+.nutri-table{
+    margin: 0 auto;
+    width: 30rem;
+    padding: 1rem 2rem;
+    border-collapse:collapse;
+    margin-block: 2rem;
+    font-size: 1.5rem;
+}
+.table-lines, .table-lines{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.345);
+}
+.nutri-table th{
+    padding: 0.9rem 4.5rem 0.9rem 0;
+}
+.nutri-table td {
+    padding: 0.9rem 0 0.9rem 3.4rem;
+    font-size: 1.6rem;
+}
+/* Media-Queries (Mobile) */
+@media (min-width:23.4375rem) {
+    .omelette {
+            background-image: url(Image/image-omelette.jpeg);
+            width: 100%;
+            height: 17rem;
+            background-size: cover;
+        }
+        /* Whole card */
+        .container {
+            background: hsl(0, 0%, 100%);
+        }
+        /* first content */
+        .Heading {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2rem;
+            width: 33.5rem;
+            font-size: 1.7rem;
+        }
+        /* heading */
+        .Heading h1 {
+            line-height: 3.5rem;
+            letter-spacing: 0.1rem;
+            margin: 1.5rem 0;
+            padding: 0 1rem;
+            font-weight: 600;
+        }
+        /* Paragraph */
+        .Heading p {
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+            padding: 0 1rem;
+        }
+        /* second content */
+        .prep-time {
+            font-size: 1.5rem;
+            width: 26rem;
+            margin: 0 auto;
+            border-radius: 1rem;
+            padding: 2rem;
+            line-height: 3rem;
+            background: hsl(330, 100%, 98%);
+            list-style-position: outside;
+        }
+        /* Heading */
+        .prep-time h2:first-child {
+            color: hsl(332, 51%, 32%);
+            margin: 0 0 1rem 0;
+        }
+        /* Lists */
+        .prep-time li {
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            margin: 1.5rem 0 0 3rem;
+            padding-left: 1rem;
+        }
+        .prep-icon>li::marker {
+            color: hsl(332, 51%, 32%);
+        }
+        /* Third content */
+        .Ingredients {
+            width: 30rem;
+            margin: 2rem auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+            padding: 2.7rem 0;
+            line-height: 3rem;
+            list-style-position: outside;
+            font-size: 1.6rem;
+        }
+        /* list */
+        .Ingre-icon li {
+            margin: 0.6rem 0 0 2.5rem;
+        }
+        .Ingredients li {
+            padding-left: 1rem;
+        }
+        .Ingredients h2:first-child {
+            margin-bottom: 1.5rem;
+        }
+        .Ingre-icon li::marker {
+            color: hsl(14, 45%, 36%);
+        }
+        /* Fourth content */
+        .Instructions {
+            width: 30rem;
+            margin: 0 auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+            padding: 2rem 0;
+            line-height: 2.5rem;
+            font-size: 1.49rem;
+        }
+        /* List */
+        .list-icon>li::marker {
+            font-weight: bold;
+            color: hsl(14, 45%, 36%);
+        }
+        .Instructions li {
+            margin: 1rem 2rem;
+            list-style-position: outside;
+            padding-left: 1rem;
+        }
+        .Instructions h2:first-child {
+            margin: 0 0 2rem 0;
+        }
+        .bold-list {
+            font-weight: bold;
+        }
+        /* Last section */
+        .Nutrition {
+            width: 30rem;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+        }
+        .Nutrition h2:first-child {
+            margin: 1.5rem 0;
+        }
+        /* table */
+        .nutri-table {
+            margin: 0 auto;
+            width: 30rem;
+            padding: 1rem 2rem;
+            border-collapse: collapse;
+            margin-block: 2rem;
+            font-size: 1.5rem;
+        }
+        .table-lines, .table-lines {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.345);
+        }
+        .nutri-table th {
+            padding: 0.9rem 4.5rem 0.9rem 0;
+        }
+        .nutri-table td {
+            padding: 0.9rem 0 0.9rem 3.4rem;
+            font-size: 1.6rem;
+        }
+}
+/* Media-Query (Tablets) */
+@media (min-width:48rem) {
+    .omelette {
+            background-image: url(Image/image-omelette.jpeg);
+            width: 57rem;
+            height: 25rem;
+            background-size: cover;
+            border-radius: 1rem;
+            margin: 0 auto;
+            padding: 2rem 3rem;
+        }
+/* Body */
+body{
+    background: hsl(30, 54%, 90%);
+}
+        /* Whole card */
+        .container {
+            background: hsl(0, 0%, 100%);
+            width: 66rem;
+            margin: 7rem auto;
+            padding: 3.47rem 2rem;
+            border-radius: 1.5rem;
+        }
+    
+        /* first content */
+        .Heading {
+            display: flex;
+            margin: 0 auto;
+            padding: 2rem 0;
+            width: 64rem;
+            font-size: 1.84rem;
+            /* border: 1px solid black; */
+        }
+    
+        /* heading */
+        .Heading h1 {
+            line-height: 3.5rem;
+            letter-spacing: 0.1rem;
+            margin: 1.5rem 0;
+            padding: 0 1rem;
+            font-weight: 600;
+        }
+    
+        /* Paragraph */
+        .Heading p {
+            line-height: 2.5rem;
+            font-size: 1.58rem;
+            padding: 0 1rem;
+        }
+    
+        /* second content */
+        .prep-time {
+            font-size: 1.8rem;
+            width: 57rem;
+            margin: 0 auto;
+            border-radius: 1rem;
+            padding: 3rem 3rem 3.5rem 3rem;
+            line-height: 3rem;
+            background: hsl(330, 100%, 98%);
+            list-style-position: outside;
+        }
+    
+        /* Heading */
+        .prep-time h2:first-child {
+            color: hsl(332, 51%, 32%);
+            margin: 0 0 1rem 0;
+        }
+    
+        /* Lists */
+        .prep-time li {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            margin: 1.5rem 0 0 3rem;
+            padding-left: 1rem;
+        }
+    
+        .prep-icon>li::marker {
+            color: hsl(332, 51%, 32%);
+        }
+    
+        /* Third content */
+        .Ingredients {
+            width: 62rem;
+            margin: 2rem auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+            padding: 2.7rem 3px;
+            line-height: 3rem;
+            list-style-position: outside;
+            font-size: 1.7rem;
+            /* border: 1px solid black; */
+        }
+    
+        /* list */
+        .Ingre-icon li {
+            margin: 0.6rem 0 0 2.5rem;
+        }
+    
+        .Ingredients li {
+            padding-left: 1rem;
+        }
+    
+        .Ingredients h2:first-child {
+            margin-bottom: 1.5rem;
+        }
+    
+        .Ingre-icon li::marker {
+            color: hsl(14, 45%, 36%);
+        }
+    
+        /* Fourth content */
+        .Instructions {
+            width: 62rem;
+            margin: 0 auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+            padding: 2rem 0;
+            line-height: 2.5rem;
+            font-size: 1.54rem;
+        }
+    
+        /* List */
+        .list-icon>li::marker {
+            font-weight: bold;
+            color: hsl(14, 45%, 36%);
+        }
+    
+        .Instructions li {
+            margin: 1rem 2rem;
+            list-style-position: outside;
+            padding-left: 1rem;
+        }
+    
+        .Instructions h2:first-child {
+            margin: 0 0 2rem 0;
+            font-size: 2.5rem;
+        }
+    
+        .bold-list {
+            font-weight: bold;
+        }
+    
+        /* Last section */
+        .Nutrition {
+            width: 64rem;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+        }
+    
+        .Nutrition h2:first-child {
+            margin: 1.5rem 0;
+        }
+    
+        /* table */
+        .nutri-table {
+            margin: 0 auto;
+            width: 60rem;
+            padding: 1rem 0;
+            margin-block: 2rem;
+            font-size: 1.7rem;
+        }
+    
+        .table-lines, .table-lines {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.345);
+        }
+    
+        .nutri-table th {
+            padding: 1rem 12rem 1rem 0;
+        }
+    
+        .nutri-table td {
+            padding: 1rem 0 1rem 3rem;
+            font-size: 1.7rem;
+        }
+}
