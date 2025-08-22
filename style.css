@@ -343,7 +343,6 @@ body{
             padding: 2rem 0;
             width: 64rem;
             font-size: 1.84rem;
-            /* border: 1px solid black; */
         }
     
         /* heading */
@@ -401,7 +400,6 @@ body{
             line-height: 3rem;
             list-style-position: outside;
             font-size: 1.7rem;
-            /* border: 1px solid black; */
         }
     
         /* list */
